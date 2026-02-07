@@ -12,26 +12,29 @@ Proyek ini melakukan analisis mendalam terhadap data e-commerce Olist di Brasil.
 ## Setup Environment - Anaconda
 
 Jika menggunakan Anaconda/Miniconda, ikuti langkah berikut:
+1. **Buka Terminal/Command Prompt**:
+   Pastikan Anda sudah berada di dalam direktori folder proyek ini (di mana file `requirements.txt` berada).
 
-1.  **Buat Environment Baru**:
+2.  **Buat Environment Baru**:
     ```bash
     conda create --name main-ds python=3.9
     ```
 
-2.  **Aktifkan Environment**:
+3.  **Aktifkan Environment**:
     ```bash
     conda activate main-ds
     ```
 
-3.  **Install Library yang Dibutuhkan**:
-    Pastikan anda berada di direktori proyek (`submission`), lalu jalankan:
+4.  **Install Library yang Dibutuhkan**:
+    Jalankan:
     ```bash
     pip install -r requirements.txt
     ```
 
 ## Cara Menjalankan Dashboard
 
-Setelah environment aktif dan library terinstall, jalankan perintah berikut dari terminal (pastikan posisi terminal ada di folder `submission`):
+Setelah environment aktif dan library terinstall, jalankan perintah berikut dari terminal:
 
 ```bash
 streamlit run dashboard/dashboard.py
+
