@@ -4,6 +4,7 @@ import seaborn as sns
 import streamlit as st
 from babel.numbers import format_currency
 
+st.set_page_config(layout="wide")
 sns.set(style='dark')
 
 def create_monthly_orders_df(df):
